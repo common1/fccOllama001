@@ -1,0 +1,17 @@
+# Ollama model data
+~/.ollama/models/
+# Build artifacts
+dist/
+build/
+target/
+# User-specific configurations
+.env
+.venv
+.ollama/config.json
+# Logs
+*.log
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*~
