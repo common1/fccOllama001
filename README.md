@@ -15,4 +15,25 @@ $ ollama run llama3.2:1b
 >>> /bye
 $ ollama list
 ```
+## 03 LLM Parameters Deep Dive
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=2021s]
+
+## 04 Understanding Model Benchmarks
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=2379s]
+
+## 05 Ollama Basic CLI Commands - Pull and Testing Models
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=2576s]
+
+```
+$ ollama list
+$ ollama help
+$ ollama rm llama3.2:1b
+$ ollama pull codegemma:2b
+$ ollama run codegemma:2b
+>>> /bye
+$ ollama rm codegemma:2b
+```
 
