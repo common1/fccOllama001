@@ -36,4 +36,18 @@ $ ollama run codegemma:2b
 >>> /bye
 $ ollama rm codegemma:2b
 ```
+## 06 Pull in the Llava Multimodal MOdel and Captioning an Image - Hands-on
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=2829s]
+
+[https://github.com/pdichone/ollama-fundamentals]
+
+```
+$ ollama run llava:7b
+>>> what is in this image ./flower_1.png
+...
+>>> and now write me a short poem about that
+...
+>>> tell me more about those flowers
+```
 
