@@ -2,6 +2,8 @@
 
 ## See also:
 
+API Endpoints
+[http://github.com/ollama/ollama/blob/main/docs/api.md]
 
 ## 01 Download Ollama Locally
 
@@ -75,10 +77,38 @@ $ ollama rm james
 
 [http://localhost:11434/]
 
+```
+$ curl "http://localhost:11434/api/generate" -d '{
+"model": "llama3.2",
+"prompt": "Tell me a fun fact about Portugal",
+"stream": false
+}'
+
+$ curl "http://localhost:11434/api/chat" -d '{
+"model": "llama3.2",
+"messages": [{"role": "user", "content": "tell me a fun fact about Mozambique"}],
+"stream": false
+}'
+```
+
 ## 09 Ollama REST API - Request JSON
 
 ```
-$ curl http://localhost:11434/api/generate -d '{"model": "llama3.2","prompt": "Tell me a fun fact about Portugal", "stream": false}'
-$ curl http://localhost:11434/api/chat -d '{"model": "llama3.2","messages": [{"role": "user", "content": "tell me a fun fact about Mozambique"}], "stream": false}'
+$ curl "http://localhost:11434/api/chat" -d '{
+"model": "llama3.2",
+"messages": [{"role": "user", "content": "tell me a fun fact about Mozambique"}],
+"stream": false
+}'
+
+$ curl "http://localhost:11434/api/generate" -d '{
+"model": "llama3.2",
+"prompt": "What color is the sky at different times of the day? Respond using JSON",
+"format": "json",
+"stream": false
+}'
 ```
+
+## 010 Ollama Models Support Different Tasks - Summary
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=4079s]
 
