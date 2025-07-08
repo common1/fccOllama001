@@ -2,6 +2,7 @@
 
 ## See also:
 
+
 ## 01 Download Ollama Locally
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=1083s]
@@ -49,5 +50,22 @@ $ ollama run llava:7b
 >>> and now write me a short poem about that
 ...
 >>> tell me more about those flowers
+```
+
+## 07 Summarize and Sentiment Analysis and Customizing Models with the Modelfile
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=3133s]
+
+```
+$ ollama run llama3.2
+>>> what is the sentiment of the following sentence "I am not willing to pay you back"
+>>> /bye
+
+$ ollama create james -f ./Modelfile
+$ ollama run james
+>>> What is your name
+>>> Are you smart
+>>> /bye
+$ ollama rm james
 ```
 
