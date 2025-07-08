@@ -5,6 +5,9 @@
 API Endpoints
 [http://github.com/ollama/ollama/blob/main/docs/api.md]
 
+Ollama API Usage Examples
+[https://www.gpu-mart.com/blog/ollama-api-usage-examples]
+
 ## 01 Download Ollama Locally
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=1083s]
@@ -111,4 +114,8 @@ $ curl "http://localhost:11434/api/generate" -d '{
 ## 010 Ollama Models Support Different Tasks - Summary
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=4079s]
+
+## 011 Different Ways to Interact with Ollama Models - Overview
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=4120s]
 
