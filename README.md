@@ -69,3 +69,9 @@ $ ollama run james
 $ ollama rm james
 ```
 
+## 08 Ollama REST API
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=3602s]
+
+[http://localhost:11434/]
+
