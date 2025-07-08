@@ -75,3 +75,10 @@ $ ollama rm james
 
 [http://localhost:11434/]
 
+## 09 Ollama REST API - Request JSON
+
+```
+$ curl http://localhost:11434/api/generate -d '{"model": "llama3.2","prompt": "Tell me a fun fact about Portugal", "stream": false}'
+$ curl http://localhost:11434/api/chat -d '{"model": "llama3.2","messages": [{"role": "user", "content": "tell me a fun fact about Mozambique"}], "stream": false}'
+```
+
