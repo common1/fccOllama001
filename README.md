@@ -138,3 +138,15 @@ $ sudo chmod 4755 /opt/Msty/chrome-sandbox
 ```
 $ pip install requests
 ```
+## 013 Interact with Llama3 in Python using Ollama REST API
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5054s]
+
+## 014 Ollama Python Library Chatting with our Model - Part 1
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5369s]
+
+```
+$ pip install ollama
+```
+
