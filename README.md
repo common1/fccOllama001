@@ -119,3 +119,22 @@ $ curl "http://localhost:11434/api/generate" -d '{
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=4120s]
 
+[https://msty.app/]
+
+[https://assets.msty.app/prod/latest/linux/amd64/Msty_amd64_amd64.deb]
+
+```
+Download and install
+$ chmod a+x Msty_amd64_amd64.deb
+$ sudo apt install ./Msty_amd64_amd64.deb
+$ sudo chown root:root /opt/Msty/chrome-sandbox
+$ sudo chmod 4755 /opt/Msty/chrome-sandbox
+
+```
+## 012 Introduction to Python Library for Building LLM Applications Locally - Part 1
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=4906s]
+
+```
+$ pip install requests
+```
