@@ -154,3 +154,7 @@ $ pip install ollama
 
 ...
 
+## 015 Chat Example with Streaming
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5742s]
+
