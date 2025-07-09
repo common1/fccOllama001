@@ -150,3 +150,7 @@ $ pip install requests
 $ pip install ollama
 ```
 
+## 014 Ollama Python Library Chatting with our Model - Part 2
+
+...
+
