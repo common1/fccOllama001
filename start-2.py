@@ -65,3 +65,4 @@ ollama.create(
 
 # delete model
 ollama.delete("knowitall")
+

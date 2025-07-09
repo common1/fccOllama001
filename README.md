@@ -166,3 +166,7 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5955s]
 
+## 018 Build a Real-world Use case Application - Introduction
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=6185s]
+
