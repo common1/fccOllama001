@@ -158,7 +158,11 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5742s]
 
-## 16 Using Ollama Show Function
+## 016 Using Ollama Show Function
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5835s]
+
+## 017 Create a Custom Model in Code
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=5955s]
 
