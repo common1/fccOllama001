@@ -41,6 +41,19 @@ res = ollama.chat(
     stream=True,
 )
 
-for chunk in res:
-    print(chunk["message"]["content"], end="", flush=True)
+# for chunk in res:
+#     print(chunk["message"]["content"], end="", flush=True)
 
+# ==================================================================================
+# ==== The Ollama Python library's API is designed around the Ollama REST API ====
+# ==================================================================================
+
+
+# == Generate example ==
+res = ollama.generate(
+    model="llama3.2",
+    prompt="why is the sky blue?",
+)
+
+# show
+print(ollama.show("llama3.2"))
