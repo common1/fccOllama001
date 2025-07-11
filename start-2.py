@@ -1,7 +1,7 @@
 import ollama
 
 
-response = ollama.list()
+# response = ollama.list()
 
 # print(response)
 
@@ -50,14 +50,14 @@ response = ollama.list()
 # PARAMETER temperature 0.1
 # """
 
-ollama.create(
-    model="knowitall",
-    from_="llama3.2",
-    system="You are very smart assistant who knows everything about oceans. You are very succinct and informative.",
-    parameters={
-        "temperature": 0.1,
-    },
-)
+# ollama.create(
+#     model="knowitall",
+#     from_="llama3.2",
+#     system="You are very smart assistant who knows everything about oceans. You are very succinct and informative.",
+#     parameters={
+#         "temperature": 0.1,
+#     },
+# )
 
 # res = ollama.generate(model="knowitall", prompt="why is the ocean so salty?")
 # print(res["response"])

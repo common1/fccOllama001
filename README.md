@@ -170,3 +170,7 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=6185s]
 
+## 019 Build a LLM App - Grocery List Organizer
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=6209s]
+
