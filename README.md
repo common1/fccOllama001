@@ -174,3 +174,7 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=6209s]
 
+## 020 Building RAG Systems with Ollama - Overview of RAG Systems and Langchain Crash Course
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=6706s]
+
