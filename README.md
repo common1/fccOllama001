@@ -182,3 +182,7 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=7164s]
 
+## 022 Overview of Our PDF RAG System We will be Building
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=7533s]
+
