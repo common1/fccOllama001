@@ -178,3 +178,7 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=6706s]
 
+## 021 Deep Dive into Vectorstore and Embeddings - the Whole Picture - Crash Course
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=7164s]
+
