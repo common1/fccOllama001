@@ -186,3 +186,7 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=7533s]
 
+## 023 Set up our RAG System - Document Ingestion and Vector DB Creation and Embeddings - Part 1
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=7649s]
+
