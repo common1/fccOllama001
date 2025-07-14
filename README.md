@@ -190,3 +190,14 @@ $ pip install ollama
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=7649s]
 
+
+## 023 Set up our RAG System - Document Ingestion and Vector DB Creation and Embeddings - Part 2
+
+[https://stackoverflow.com/questions/48372873/no-such-file-or-directory-tesseract-tesseract-even-though-where-to-find-te]
+
+```
+$ sudo apt-get install tesseract-ocr
+
+$ python3 pdf-rag.py
+```
+

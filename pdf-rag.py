@@ -8,3 +8,48 @@
 
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_community.document_loaders import OnlinePDFLoader
+
+doc_path = "./data/BOI.pdf"
+model = "llama3.2"
+
+# Local PDF file uploads
+if doc_path:
+    loader = UnstructuredPDFLoader(file_path=doc_path)
+    data = loader.load()
+    print("done loading....")
+else:
+    print("Upload a PDF file")
+
+# Preview first page
+content = data[0].page_content
+# print(content[:100])
+
+# ==== End of PDF Ingestion ====
+
+
+# ==== Extract Text from PDF Files and Split into Small Chunks ====
+
+from langchain_ollama import OllamaEmbeddings
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import Chroma
+
+# Split and chunk
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=300)
+chunks = text_splitter.split_documents(data)
+print("done splitting....")
+
+# print(f"Number of chunks: {len(chunks)}")
+# print(f"Example chunk: {chunks[0]}")
+
+# ===== Add to vector database ===
+import ollama
+
+ollama.pull("nomic-embed-text")
+
+vector_db = Chroma.from_documents(
+    documents=chunks,
+    embedding=OllamaEmbeddings(model="nomic-embed-text"),
+    collection_name="simple-rag",
+)
+print("done adding to vector database....")
+
