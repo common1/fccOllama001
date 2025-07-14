@@ -201,3 +201,9 @@ $ sudo apt-get install tesseract-ocr
 $ python3 pdf-rag.py
 ```
 
+## 024 RAG System - Retrieval and Querying - Final - Part 1
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=8156s]
+
+Current: 2:16:07
+
