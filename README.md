@@ -205,5 +205,7 @@ $ python3 pdf-rag.py
 
 [https://www.youtube.com/watch?v=GWB9ApTPTv4&t=8156s]
 
-Current: 2:16:07
+## 024 RAG System - Retrieval and Querying - Final - Part 2
+
+...
 
