@@ -209,3 +209,7 @@ $ python3 pdf-rag.py
 
 ...
 
+## 025 RAG System - Cleaner Code (Code Refactoring) - Part 1
+
+[https://www.youtube.com/watch?v=GWB9ApTPTv4&t=8667s]
+
